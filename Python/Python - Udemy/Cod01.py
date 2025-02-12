@@ -9,7 +9,7 @@ genero: str = "M"
 nome: str = "João"
 
 
-# formas de printar variaveis
+# Formas de print de dados com variaveis
 print(f"idade = {idade}")
 print(f"salario = {salario:.2f}")
 print(f"altura = {altura:.2f}")
