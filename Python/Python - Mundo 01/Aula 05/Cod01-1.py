@@ -1,0 +1,72 @@
+# Aula 05 - Manipulando Texto - Fatiamento e Análise de Strings
+
+
+# Importando a biblioteca "import ...".
+import os 
+
+# "os.system('cls')" = limpa o terminal | 
+os.system('cls')
+
+
+# Declarando variaveis e atribuindo valor 
+frase = 'Curso em Video Python'
+
+
+# Fatiamento de Strings 
+
+print('=' * 30)
+print("\n")
+
+# Extraindo somente uma parte da frase, no caso o [3] = "s"
+print(frase[3])
+print("\n")
+
+# Extraindo do [3] ao [12] pois elimina o [13]
+print(frase[3:13])
+print("\n")
+
+# Extraindo do inicio ao [12] pois elimina o [13]
+print(frase[:13])
+print("\n")
+
+# Extraindo do [15] ao final
+print(frase[15:])
+print("\n")
+
+# Extraindo do [1] ao [14] pulando de 2 em 2
+print(frase[1:15:2])
+print("\n")
+
+# Extraindo do [1] ao final pulando de 2 em 2
+print(frase[1::2])
+print("\n")
+
+print('=' * 30)
+print("\n")
+
+# Análise de Strings
+
+# Quantidade de letras da frase
+print(len(frase))
+print("\n")
+
+# Conta quantas vezes o "o" aparece na frase
+print(frase.count('o'))
+print("\n")
+
+# Conta quantas vezes o "o" aparece na frase, do [0] ao [12], pois o [13] nao conta
+print(frase.count('o', 0, 13))
+print("\n")
+
+# Conta quantas vezes o "deo" aparece na frase, e mostra quando começou o "deo"
+print(frase.find('deo'))
+print("\n")
+
+# 
+print(frase.find('Android'))
+print("\n")
+
+
+
+
+print("\n")
