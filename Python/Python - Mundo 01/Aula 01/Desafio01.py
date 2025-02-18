@@ -5,3 +5,5 @@ nome = input("Qual é o seu nome?")
 print("\n")
 
 print('boas vindas', nome)
+
+print("\n")

@@ -15,7 +15,7 @@ print(nome , idade , peso)
 
 print("\n")
 
-# =========================================================================================================
+# Entrada de dados
 
 nome = input("Digite seu nome: ")
 idade = input("Digite sua idade: ")
