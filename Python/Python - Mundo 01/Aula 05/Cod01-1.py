@@ -18,6 +18,7 @@ print("\n")
 
 # Fatiamento de Strings 
 
+
 # Extraindo somente uma parte da frase, no caso o [3] = "s"
 print(frase[3])
 print("\n")
@@ -68,12 +69,56 @@ print("\n")
 print(frase.find('Android'))
 print("\n")
 
+
 print('=' * 30)
 print("\n")
+
 
 # Transformação de Strings
 
 
+# Encontra o "Python" e substituir por "Android"
+# "replace" = substitui
+print(frase.replace('Python', 'Android'))
 print("\n")
+
+# Transformando todas as letras em maiusculas
+print(frase.upper())
+print("\n")
+
+# Transformando todas as letras em minusculas
+print(frase.lower())
+print("\n")
+
+# Transformando todas as letras em minusculas e somente a  primeira letra em maiuscula
+print(frase.capitalize())
+print("\n")
+
+# Transforma a primerira letra de cada palavra em maiuscula
+print(frase.title())
+print("\n")
+
+frase2 = '   Aprenda Python  '
+
+# Retira os espaços inutils em branco da frase
+print(frase2.strip())
+print("\n")
+
+# Retira os espaços inutils em branco da frase somente na direita
+print(frase2.rstrip())
+print("\n")
+
+# Retira os espaços inutils em branco da frase somente na esquerda
+print(frase2.lstrip())
+print("\n")
+
+
+print('=' * 30)
+print("\n")
+
+
+# Divisão de Strings
+
+
 
 print("\n")
