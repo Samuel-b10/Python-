@@ -8,7 +8,7 @@ import os
 os.system('cls')
 
 
-# Forma de usar o "print" com um texto grande 
+# Forma de usar o "print" com um texto grande, usando as tres aspas """..."""
 
 print("""Há verdadeiramente duas coisas diferentes: saber e crer que se sabe. 
 A ciência consiste em saber; em crer que se sabe reside a ignorância.
