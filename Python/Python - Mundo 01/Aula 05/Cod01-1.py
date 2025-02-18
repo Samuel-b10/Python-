@@ -120,5 +120,17 @@ print("\n")
 # Divisão de Strings
 
 
+# Dividindo a frase em listas, e zerando a posição de cada palavra
+print(frase.split())
 
+
+print('=' * 30)
+print("\n")
+
+
+# Junção de Strings
+
+
+# Juntando as palavras da frase
+print('-'.join(frase))
 print("\n")
