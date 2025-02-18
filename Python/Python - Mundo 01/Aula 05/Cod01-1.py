@@ -12,10 +12,11 @@ os.system('cls')
 frase = 'Curso em Video Python'
 
 
-# Fatiamento de Strings 
-
 print('=' * 30)
 print("\n")
+
+
+# Fatiamento de Strings 
 
 # Extraindo somente uma parte da frase, no caso o [3] = "s"
 print(frase[3])
@@ -58,15 +59,21 @@ print("\n")
 print(frase.count('o', 0, 13))
 print("\n")
 
-# Conta quantas vezes o "deo" aparece na frase, e mostra quando começou o "deo"
+# Conta aonde o "deo" aparece na frase, e mostra quando começou o "deo" no caso [11]
 print(frase.find('deo'))
 print("\n")
 
-# 
+# Conta aonde o "Android" aparece na frase, e mostra quando começou o "Android" no caso [-1]
+# Se nao encontrar ele retorna -1
 print(frase.find('Android'))
 print("\n")
 
+print('=' * 30)
+print("\n")
+
+# Transformação de Strings
 
 
+print("\n")
 
 print("\n")
